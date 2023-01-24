@@ -1,0 +1,58 @@
+@charset "UTF-8"
+
+body{
+    background-color: rgba(255, 245, 187, 0.797);
+}
+
+div{
+    display: inline-block;
+    text-align: center;
+    width: 400px;
+    height: 800px;
+    border: 1px bold black;
+}
+
+div:hover{
+    background-color: aquamarine;
+    height: 800px;
+}
+
+
+h1{
+    font-family: 'Caveat Brush', cursive;
+    font-size: 50px;
+    color: #A485D4;
+    text-align: center;
+    
+}
+
+h2{
+    color: #5C66D6;
+    background-color: #E0A2B6;
+    font-family: Tahoma;    
+}
+
+p{
+    font-family: maquina;
+    text-align: justify;
+    text-indent: 30px;
+    color: #C7BA87;
+}
+
+#principal{
+    color: #E1CD88;
+    background-color: #F05B9B;
+    text-shadow :black;
+}
+
+.basico{
+    background-color:#E1CD88;
+}
+
+.intermediario{
+    background-color: #FA825F;
+}
+
+.avancado{
+   background-color: #5BF092; 
+}

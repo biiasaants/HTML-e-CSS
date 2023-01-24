@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br ">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com link</title>
+</head>
+<body>
+    <h1>Links</h1>
+    <h2>Links Externos</h2>
+    <p>Incluir link de sites externos com a tag <strong>A</strong>, incluir na referência a <em>URL</em>.
+        <br>
+        <ol> Exemplo:
+            <li><a href="https://www.netflix.com/browse" target="_blank" rel="external">Site da Netflix</a></ol>
+    </p>
+<p>Quando você quer levar o usuário para outro site, abrindo uma nova aba no navegador, precisa usar as <mark style="background-color:pink ;">tags target:_blank</mark> e <mark style="background-color:pink ;">rel:"external"</mark>. Dessa forma abrirá outra aba e o seu site continua na tela do usuário.</p>
+
+<hr>
+
+<h2>Links Internos</h2>
+<p>Usado para fazer relação com outra página do nosso próprio site:</p>
+
+<ol>
+    Exemplo:
+    <li><a href="EX06.html" rel="next">Página Exercício 06</a></li>
+</ol>
+
+<p>Para criar um mecanismo de busca com semântica, usar dentro do <strong>A</strong> o rel <ins>next</ins> e <ins>prev</ins> </p>
+
+Usar o <strong>rel nofollow</strong> para indicar para o mecanismo de busca que você não quer que ele perpetue o site, quando você não da o seu aval para aquele link:
+
+<p>Esta página é um oferecimento de <a href="https://www.hostnet.com.br/" target="_blank" rel="nofollow">Hostnet</a></p>
+
+<ul> Exercício 08
+    <li>
+        <a href="EX08/EX08.html" target="_self">Ir para a página</a>
+    </li>
+
+    Exercício 05
+    <li>
+        <a href="EX05.html" target="_self">Ir para a página</a>
+    </li>
+</ul>
+<p>Dentro da <mark style="background-color:pink ;">href</mark> usar <mark style="background-color:pink ;">../</mark> para conseguir mudar de pasta. <em>Deu certo escrever desse jeito dentro do exercicio 08, pois a pasta está dentro dessa geral, fazendo o link <strong>voltar</strong> uma página</em></p>
+
+<br>
+
+<p>
+    <mark style="background-color:pink ;">target: _self</mark> usado para manter as páginas em uma aba só.
+</p>
+
+<hr>
+
+<h2>Colocando download no link</h2>
+<ul>
+    <li> <a href="../PDFS/10 - Ligações em toda parte.pdf" download="10 - Ligações em toda parte" type="application/pdf"> Baixa PDF</a></li>
+</ul>
+
+
+</body>
+</html>

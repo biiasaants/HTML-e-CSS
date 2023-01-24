@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../IMAGENS E FAVICONS/arco-iris.ico.png" type="image/x-icon">
+    <title>Desafio Imagem Dinâmica</title>
+</head>
+<body>
+    <h1>Foto em várias telas</h1>
+
+    <p>
+        Diminua a tela do navegador para ver a imagem redimensionar.
+    </p>
+
+    <picture>
+        <source media="(max-width: 850px )" srcset="IMAGENS/img3.jpeg" type="image/jpeg">
+        <source media="(max-width: 1330px)" srcset="IMAGENS/img2.jpeg" type="image/jpeg">
+        <img src="IMAGENS/img1.jpeg" alt="imagem grande">
+    </picture>
+    
+</body>
+</html>

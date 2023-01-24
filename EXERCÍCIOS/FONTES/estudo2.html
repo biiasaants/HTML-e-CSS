@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando pseudoclasse</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div > p{
+            display: none;
+        }
+
+        div:hover > p{
+            display: block;
+            background-color: red;
+            width: 300px;
+            font-family: 'Times New Roman', Times, serif;
+            border: 3px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        Passe o mouse!
+        <p>O texto aparece</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="IMAGENS E FAVICONS/biscoito.ico.png" type="image/x-icon">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinamica</h1>
+    <p>Usar tag <strong>PICTURE</strong>, dentro dela inserir uma imagem com <strong>IMG</strong> normal. Essa imagem precisa ser a de maior resolução. Para a imagem diminuir conforme tela, precisa inserir <ins>acima</ins> da linha <strong>IMG</strong> a tag <strong>SOURCE</strong> (existem vários tipos), selecionar<em> media-type</em>, alterar de <em>min</em> para <em>max</em>, na quantidade de px, colocar um pouco a mais de px para não criar nenhuma barra de rolagem, no item <strong>SRCSET</strong> incluir a imagem de tamanho <em>MENOR</em> e em <strong>TYPE</strong> incluir o formato da imagem. 
+    <br>
+    <mark>Lembrando que é necessário deixar todas as imagens dentro de uma pasta separada.</mark>
+    <br>
+    A ordem dos tamanhos, precisa ser respeitada.
+    </p>
+<picture>
+    <source media="(max-width: 750px)" srcset="IMAGENS/imagemp.jpeg" type="image/jpeg">
+    <source media="(max-width: 1050px)" srcset="IMAGENS/imagemm.jpeg" type="image/jpeg">
+    <img src="IMAGENS/imagemg.jpeg" alt="imagem grande">
+</picture>
+
+<h2>Áudio</h2>
+<p>Inserindo áudio</p>
+<audio src="IMAGENS/happy-mistake.mp3" controls autoplay></audio>
+
+<p> com todos os navegadores, usar em outro formato: MP3, WAVE e OGG </p>
+
+<audio preload="metadata" autoplay controls>
+    <source srcset="IMAGENS/happy-mistake.mp3 " type="audio/mpeg">
+</audio>
+
+<h2>Videos</h2>
+<p>Handbrake - programa para converter video'</p>
+
+<h3>Video hospedado localmente:</h3>
+<video src="IMAGENS/video-2.mp4" width="500px" controls poster="IMAGENS/thumb-video-2.jpg"></video>
+
+<p>Colocar todos os formatos de video para que abra em todos os navegadores, criar tag video e dentro dela a source, igual com imagem. Na última linha escrever dentro do p "seu navegador não tem compatibilidade com reprodução de vídeos". Importante se atentar a ordem dos formatos dentro do source. Essa técnica tem um valor alto</p>
+
+<h3>Video externo, do Youtube:</h3>
+<p>Copiar código do próprio site do Youtube, dessa forma não irá ter um custo de hospedagem.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
+
+
+
+</body>
+</html>
