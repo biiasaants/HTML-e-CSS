@@ -24,17 +24,17 @@ header h1{font-variant: small-caps; padding-top: 40px; font-size: 3em;}
 header p{ font-size: 1.5em; padding-bottom: 40px; margin-top: 10px;}
 
 /*SECTION*/
-section{padding: 10vh 10vh; padding-left: 30px; line-height: 30px;
+section{padding: 10vh 10vh; padding-left: 30px; line-height: 50px;
 }
 
 /*NORMAL*/
 .normal{background-color:var(--cor2)}
+.normal p{font-size: 1.5em;}
 
 /*IMAGEM*/
-.imagem{background-color:var(--cor3);}
-.imagem p{background-color:#0d0d0d67 ; width: 500px; padding: 10px 0px 10px 0px;}
-
+.imagem{background-color:var(--cor3); background: #735443 url(imagens/background002.jpg) center center no-repeat fixed; background-size: cover;}
+.imagem p{background-color:#0d0d0d67 ; width: 300px; padding: 10px 0px 10px 0px; color: white; font-size: 1.5em;}
 
 /*FOOTER*/
 footer{background-color: var(--cor4); padding: 20px;}
-footer p{color: white; text-align: center;}
+footer p{color: white; text-align: center; font-size: 1.1em;}
