@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudo - Grid</title>
+    <style>
+        .wrapper{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-template-rows: repeat(2, 50px);
+            gap: 10px;
+            text-align: center;
+            font-size: 2em;
+
+        }
+
+        .iten1{
+            background-color: lightyellow;
+            /* grid-column-start: 1;
+            grid-column-end: 3; */
+        }
+        
+        .iten2{
+            background-color: lightcoral;
+        }
+
+        .iten3{
+            background-color: lightcyan;
+            /* grid-row-start: 2;
+            grid-row-end: 4; */
+        }
+
+        .iten4{
+            background-color: lightslategray;
+            /* grid-column-start: 2;
+            grid-column-end: 4; */
+        }
+
+        .iten5{
+            background-color: lightgreen;
+        }
+
+        .iten6{
+            background-color: lightskyblue;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="iten1">1</div>
+        <div class="iten2">2</div>
+        <div class="iten3">3</div>
+        <div class="iten4">4</div>
+        <div class="iten5">5</div>
+        <div class="iten6">6</div>
+      </div>    
+</body>
+</html>
